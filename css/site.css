@@ -1,0 +1,107 @@
+body {
+	background-color: #e5e5e5;
+	font-family: 'Crimson Text', serif;
+	color: #444;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+#ie8 img {
+	width: auto;
+}
+
+h1 {
+	font-size: 44px;
+	font-weight: 900;
+	line-height: 1.1em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: #333;
+	font-family: "Source Sans Pro", "Helvetica", "Arial", sans-serif;
+}
+
+code, pre, .code {
+	font-family: "Droid Sans Mono", monospace;
+}
+
+p code {
+	padding: 0px 5px;
+	border: 1px solid #EAEAEA;
+	background-color: #F8F8F8;
+	white-space: nowrap;
+}
+
+p, pre {
+	line-height: 1.5em;
+}
+
+ol, ul {
+	padding: 0 0 0 10px;
+	list-style: none;
+}
+
+li {
+	margin-bottom: 10px;
+}
+
+a {
+	color: #08c;
+	text-decoration: underline;
+}
+a:hover {
+	color: #005580;
+}
+a:visited {
+	color: #005580;
+}
+
+#page {
+	position: relative;
+	width: 480px;
+	margin: 0 auto;
+	margin-top: 10px;
+	background-color: #fff;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.page-nav {
+	background: #585858;
+	font-family: "Source Sans Pro", "Helvetica", "Arial", sans-serif;
+}
+.page-nav a {
+	display: inline-block;
+	padding: 5px 10px;
+	font-weight: 700;
+	color: #ddd;
+	text-decoration: underline;
+}
+.page-nav a:hover {
+	color: #fff;
+}
+
+#content {
+	padding: 20px;
+}
+
+.meta {
+	color: #999;
+}
+
+#footer {
+	padding: 20px 10px 10px;
+	background: #585858;
+}
+#footer p {
+	margin-top: 0;
+	text-align: center;
+	color: #ddd;
+	font-family: "Source Sans Pro", "Helvetica", "Arial", sans-serif;
+	font-size: 75%;
+}
+#footer a {
+	color: #fff;
+	text-decoration: underline;
+}

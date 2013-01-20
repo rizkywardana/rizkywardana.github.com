@@ -1,0 +1,23 @@
+---
+layout: post
+title: Hello World
+comments: true
+---
+
+h1. {{ page.title }}
+
+p(meta). 20 Jan 2013 - West Java
+
+Hello World! This is my first post on my Jekyll-powered blog. What motivated me to blog like a hacker was, of course, "Tom Preston-Werner's post":http://tom.preston-werner.com/2008/11/17/blogging-like-a-hacker.html. My blog is cloned from Tom's blog with tweaked layout and styles. So here's what I did to get my blog up:
+
+{% highlight bash %}
+$ mkdir rizkywardana.github.com
+$ cd rizkywardana.github.com
+$ git clone https://github.com/mojombo/mojombo.github.com .
+$ rm -rf _site
+$ rm -rf _posts/*
+{% endhighlight %}
+
+After that, I created "rizkywardana.github.com repository":https://github.com/rizkywardana/rizkywardana.github.com, added remote origin, as usual, on my local repo, and tweaked the layout and stylesheet. If you need to tweak more, jump into "Jekyll wiki":https://github.com/mojombo/jekyll/wiki.
+
+So what's I'm going to write on this blog? Well, I'm thinking to write about my experiences learning Python and algorithm.
