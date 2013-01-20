@@ -7,6 +7,8 @@ comments: true
 {{ page.title }}
 ================
 
+<p class="meta">20 Jan 2013 - West Java</p>
+
 When I decided to learn Python, I was looking for online tutorial that easy to
 grasp. I found following free books helped a lot:
 
