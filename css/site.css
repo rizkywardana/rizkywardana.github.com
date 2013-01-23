@@ -39,12 +39,17 @@ p, pre {
 }
 
 ol, ul {
+	margin-left: 1em;
 	padding: 0 0 0 10px;
 	list-style: none;
 }
 
 li {
 	margin-bottom: 10px;
+}
+
+ul li {
+	list-style: circle outside;
 }
 
 a {
@@ -88,6 +93,10 @@ a:visited {
 
 .meta {
 	color: #999;
+}
+
+.posts .date {
+	font-variant: small-caps;
 }
 
 #footer {
